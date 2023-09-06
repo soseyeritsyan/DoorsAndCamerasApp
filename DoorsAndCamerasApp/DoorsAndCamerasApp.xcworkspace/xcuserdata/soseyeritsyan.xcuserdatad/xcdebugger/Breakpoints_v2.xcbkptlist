@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B43A4A4D-9769-458D-97D1-9CE0E4E57429"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23929194-9230-40C9-BC23-05DC197418A7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoorsAndCamerasApp/Managers/DataBaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "getAllObjects(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "23929194-9230-40C9-BC23-05DC197418A7 - 2f226a082e73b5d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoorsAndCamerasApp.DatabaseManager.getAllObjects&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.RealmSwiftObject&gt;(&#x3c4;_0_0.Type) -&gt; RealmSwift.Results&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DoorsAndCamerasApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/soseyeritsyan/Desktop/DoorsAndCamerasApp/DoorsAndCamerasApp/Managers/DataBaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "23929194-9230-40C9-BC23-05DC197418A7 - 2f226a082e73b2bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoorsAndCamerasApp.DatabaseManager.getAllObjects&lt;&#x3c4;_0_0 where &#x3c4;_0_0: __C.RealmSwiftObject&gt;(&#x3c4;_0_0.Type) -&gt; RealmSwift.Results&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "DoorsAndCamerasApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/soseyeritsyan/Desktop/DoorsAndCamerasApp/DoorsAndCamerasApp/Managers/DataBaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "913E4440-A6F7-4497-9A15-91DF61B3CF89"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DoorsAndCamerasApp/Managers/ApiDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "fetchData(endpoint:responseType:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

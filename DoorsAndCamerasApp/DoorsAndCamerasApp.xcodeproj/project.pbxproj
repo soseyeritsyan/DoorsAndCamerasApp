@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B40059454617472D2094271 /* Pods_DoorsAndCamerasApp_DoorsAndCamerasAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8636AF3A7C2596D4D1C87C /* Pods_DoorsAndCamerasApp_DoorsAndCamerasAppUITests.framework */; };
+		9679AF575542E6BC0CA32E24 /* Pods_DoorsAndCamerasApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D705DAB10BBBC21F02979D28 /* Pods_DoorsAndCamerasApp.framework */; };
+		A3BF9957AA29A111B7228052 /* Pods_DoorsAndCamerasAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FA37547022F16D2554FF6C /* Pods_DoorsAndCamerasAppTests.framework */; };
+		F5638EFF2A93941800EA140A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5638EFE2A93941800EA140A /* AppDelegate.swift */; };
+		F5638F012A93941800EA140A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5638F002A93941800EA140A /* SceneDelegate.swift */; };
+		F5638F032A93941800EA140A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5638F022A93941800EA140A /* ViewController.swift */; };
+		F5638F062A93941800EA140A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5638F042A93941800EA140A /* Main.storyboard */; };
+		F5638F082A93941800EA140A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5638F072A93941800EA140A /* Assets.xcassets */; };
+		F5638F0B2A93941800EA140A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5638F092A93941800EA140A /* LaunchScreen.storyboard */; };
+		F5638F162A93941900EA140A /* DoorsAndCamerasAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5638F152A93941900EA140A /* DoorsAndCamerasAppTests.swift */; };
+		F5638F202A93941900EA140A /* DoorsAndCamerasAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5638F1F2A93941900EA140A /* DoorsAndCamerasAppUITests.swift */; };
+		F5638F222A93941900EA140A /* DoorsAndCamerasAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5638F212A93941900EA140A /* DoorsAndCamerasAppUITestsLaunchTests.swift */; };
+		F5638F2F2A93A5C500EA140A /* CameraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5638F2E2A93A5C500EA140A /* CameraTableViewCell.swift */; };
+		F5638F312A93A81A00EA140A /* SegmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5638F302A93A81A00EA140A /* SegmentCollectionViewCell.swift */; };
+		F59066802A94928E0034D81F /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F590667F2A94928E0034D81F /* CameraModel.swift */; };
+		F59C8D492A96150B00538DF9 /* ApiDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59C8D482A96150B00538DF9 /* ApiDataManager.swift */; };
+		F59C8D4B2A96459500538DF9 /* DoorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59C8D4A2A96459500538DF9 /* DoorModel.swift */; };
+		F5A615E22A9A509300AF6FD5 /* DomophoneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A615E12A9A509300AF6FD5 /* DomophoneTableViewCell.swift */; };
+		F5A91B9E2A97929D00D1A73F /* DoorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A91B9D2A97929D00D1A73F /* DoorTableViewCell.swift */; };
+		F5BA26782A9D02D700B71DCA /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BA26772A9D02D700B71DCA /* DataBaseManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5638F122A93941900EA140A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5638EF32A93941800EA140A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5638EFA2A93941800EA140A;
+			remoteInfo = DoorsAndCamerasApp;
+		};
+		F5638F1C2A93941900EA140A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5638EF32A93941800EA140A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5638EFA2A93941800EA140A;
+			remoteInfo = DoorsAndCamerasApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78E783A823C68C9A9071E14B /* Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests/Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D43CBC47BBF9ACFEF01A376 /* Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests.release.xcconfig"; path = "Target Support Files/Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests/Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A4A3F7CFE39BCEFBCC7AF1AA /* Pods-DoorsAndCamerasAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorsAndCamerasAppTests.release.xcconfig"; path = "Target Support Files/Pods-DoorsAndCamerasAppTests/Pods-DoorsAndCamerasAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B04691B042124BAF4BC37527 /* Pods-DoorsAndCamerasApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorsAndCamerasApp.release.xcconfig"; path = "Target Support Files/Pods-DoorsAndCamerasApp/Pods-DoorsAndCamerasApp.release.xcconfig"; sourceTree = "<group>"; };
+		D4FA37547022F16D2554FF6C /* Pods_DoorsAndCamerasAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoorsAndCamerasAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D644CD4D5FC2D96B7853BB24 /* Pods-DoorsAndCamerasAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorsAndCamerasAppTests.debug.xcconfig"; path = "Target Support Files/Pods-DoorsAndCamerasAppTests/Pods-DoorsAndCamerasAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D705DAB10BBBC21F02979D28 /* Pods_DoorsAndCamerasApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoorsAndCamerasApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8636AF3A7C2596D4D1C87C /* Pods_DoorsAndCamerasApp_DoorsAndCamerasAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoorsAndCamerasApp_DoorsAndCamerasAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5638EFB2A93941800EA140A /* DoorsAndCamerasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoorsAndCamerasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5638EFE2A93941800EA140A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5638F002A93941800EA140A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5638F022A93941800EA140A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5638F052A93941800EA140A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5638F072A93941800EA140A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5638F0A2A93941800EA140A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5638F0C2A93941800EA140A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5638F112A93941900EA140A /* DoorsAndCamerasAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorsAndCamerasAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5638F152A93941900EA140A /* DoorsAndCamerasAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorsAndCamerasAppTests.swift; sourceTree = "<group>"; };
+		F5638F1B2A93941900EA140A /* DoorsAndCamerasAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorsAndCamerasAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5638F1F2A93941900EA140A /* DoorsAndCamerasAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorsAndCamerasAppUITests.swift; sourceTree = "<group>"; };
+		F5638F212A93941900EA140A /* DoorsAndCamerasAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorsAndCamerasAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5638F2E2A93A5C500EA140A /* CameraTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTableViewCell.swift; sourceTree = "<group>"; };
+		F5638F302A93A81A00EA140A /* SegmentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentCollectionViewCell.swift; sourceTree = "<group>"; };
+		F590667F2A94928E0034D81F /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		F59C8D482A96150B00538DF9 /* ApiDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiDataManager.swift; sourceTree = "<group>"; };
+		F59C8D4A2A96459500538DF9 /* DoorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorModel.swift; sourceTree = "<group>"; };
+		F5A615E12A9A509300AF6FD5 /* DomophoneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomophoneTableViewCell.swift; sourceTree = "<group>"; };
+		F5A91B9D2A97929D00D1A73F /* DoorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorTableViewCell.swift; sourceTree = "<group>"; };
+		F5BA26772A9D02D700B71DCA /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		F9DEAB87C24BD846ACEEBD49 /* Pods-DoorsAndCamerasApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoorsAndCamerasApp.debug.xcconfig"; path = "Target Support Files/Pods-DoorsAndCamerasApp/Pods-DoorsAndCamerasApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5638EF82A93941800EA140A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9679AF575542E6BC0CA32E24 /* Pods_DoorsAndCamerasApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5638F0E2A93941900EA140A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BF9957AA29A111B7228052 /* Pods_DoorsAndCamerasAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5638F182A93941900EA140A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B40059454617472D2094271 /* Pods_DoorsAndCamerasApp_DoorsAndCamerasAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4863890AC52893506212427D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D705DAB10BBBC21F02979D28 /* Pods_DoorsAndCamerasApp.framework */,
+				EA8636AF3A7C2596D4D1C87C /* Pods_DoorsAndCamerasApp_DoorsAndCamerasAppUITests.framework */,
+				D4FA37547022F16D2554FF6C /* Pods_DoorsAndCamerasAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8207174DA056181F20AA6D23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9DEAB87C24BD846ACEEBD49 /* Pods-DoorsAndCamerasApp.debug.xcconfig */,
+				B04691B042124BAF4BC37527 /* Pods-DoorsAndCamerasApp.release.xcconfig */,
+				78E783A823C68C9A9071E14B /* Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests.debug.xcconfig */,
+				9D43CBC47BBF9ACFEF01A376 /* Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests.release.xcconfig */,
+				D644CD4D5FC2D96B7853BB24 /* Pods-DoorsAndCamerasAppTests.debug.xcconfig */,
+				A4A3F7CFE39BCEFBCC7AF1AA /* Pods-DoorsAndCamerasAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5341EE62AA89B040031664C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F5638F022A93941800EA140A /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F5638EF22A93941800EA140A = {
+			isa = PBXGroup;
+			children = (
+				F5638EFD2A93941800EA140A /* DoorsAndCamerasApp */,
+				F5638F142A93941900EA140A /* DoorsAndCamerasAppTests */,
+				F5638F1E2A93941900EA140A /* DoorsAndCamerasAppUITests */,
+				F5638EFC2A93941800EA140A /* Products */,
+				8207174DA056181F20AA6D23 /* Pods */,
+				4863890AC52893506212427D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5638EFC2A93941800EA140A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5638EFB2A93941800EA140A /* DoorsAndCamerasApp.app */,
+				F5638F112A93941900EA140A /* DoorsAndCamerasAppTests.xctest */,
+				F5638F1B2A93941900EA140A /* DoorsAndCamerasAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5638EFD2A93941800EA140A /* DoorsAndCamerasApp */ = {
+			isa = PBXGroup;
+			children = (
+				F5638EFE2A93941800EA140A /* AppDelegate.swift */,
+				F5638F002A93941800EA140A /* SceneDelegate.swift */,
+				F5C20C072A9DE48300277A17 /* Managers */,
+				F59C8D472A96146100538DF9 /* Model */,
+				F5A615E32A9A5B0400AF6FD5 /* cell */,
+				F5341EE62AA89B040031664C /* ViewController */,
+				F5638F042A93941800EA140A /* Main.storyboard */,
+				F5638F072A93941800EA140A /* Assets.xcassets */,
+				F5638F092A93941800EA140A /* LaunchScreen.storyboard */,
+				F5638F0C2A93941800EA140A /* Info.plist */,
+			);
+			path = DoorsAndCamerasApp;
+			sourceTree = "<group>";
+		};
+		F5638F142A93941900EA140A /* DoorsAndCamerasAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5638F152A93941900EA140A /* DoorsAndCamerasAppTests.swift */,
+			);
+			path = DoorsAndCamerasAppTests;
+			sourceTree = "<group>";
+		};
+		F5638F1E2A93941900EA140A /* DoorsAndCamerasAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5638F1F2A93941900EA140A /* DoorsAndCamerasAppUITests.swift */,
+				F5638F212A93941900EA140A /* DoorsAndCamerasAppUITestsLaunchTests.swift */,
+			);
+			path = DoorsAndCamerasAppUITests;
+			sourceTree = "<group>";
+		};
+		F59C8D472A96146100538DF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F590667F2A94928E0034D81F /* CameraModel.swift */,
+				F59C8D4A2A96459500538DF9 /* DoorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5A615E32A9A5B0400AF6FD5 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				F5638F2E2A93A5C500EA140A /* CameraTableViewCell.swift */,
+				F5A91B9D2A97929D00D1A73F /* DoorTableViewCell.swift */,
+				F5A615E12A9A509300AF6FD5 /* DomophoneTableViewCell.swift */,
+				F5638F302A93A81A00EA140A /* SegmentCollectionViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		F5C20C072A9DE48300277A17 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F59C8D482A96150B00538DF9 /* ApiDataManager.swift */,
+				F5BA26772A9D02D700B71DCA /* DataBaseManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5638EFA2A93941800EA140A /* DoorsAndCamerasApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5638F252A93941900EA140A /* Build configuration list for PBXNativeTarget "DoorsAndCamerasApp" */;
+			buildPhases = (
+				8FCD187FD4117C4FB684FC80 /* [CP] Check Pods Manifest.lock */,
+				F5638EF72A93941800EA140A /* Sources */,
+				F5638EF82A93941800EA140A /* Frameworks */,
+				F5638EF92A93941800EA140A /* Resources */,
+				B8F85C613E680AA385C979C1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoorsAndCamerasApp;
+			productName = DoorsAndCamerasApp;
+			productReference = F5638EFB2A93941800EA140A /* DoorsAndCamerasApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5638F102A93941900EA140A /* DoorsAndCamerasAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5638F282A93941900EA140A /* Build configuration list for PBXNativeTarget "DoorsAndCamerasAppTests" */;
+			buildPhases = (
+				DB8D1720A407F1B905232648 /* [CP] Check Pods Manifest.lock */,
+				F5638F0D2A93941900EA140A /* Sources */,
+				F5638F0E2A93941900EA140A /* Frameworks */,
+				F5638F0F2A93941900EA140A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5638F132A93941900EA140A /* PBXTargetDependency */,
+			);
+			name = DoorsAndCamerasAppTests;
+			productName = DoorsAndCamerasAppTests;
+			productReference = F5638F112A93941900EA140A /* DoorsAndCamerasAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5638F1A2A93941900EA140A /* DoorsAndCamerasAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5638F2B2A93941900EA140A /* Build configuration list for PBXNativeTarget "DoorsAndCamerasAppUITests" */;
+			buildPhases = (
+				AA5F479B629E00E3428BC6F0 /* [CP] Check Pods Manifest.lock */,
+				F5638F172A93941900EA140A /* Sources */,
+				F5638F182A93941900EA140A /* Frameworks */,
+				F5638F192A93941900EA140A /* Resources */,
+				1E98DBDD0715FE5B7706B63D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5638F1D2A93941900EA140A /* PBXTargetDependency */,
+			);
+			name = DoorsAndCamerasAppUITests;
+			productName = DoorsAndCamerasAppUITests;
+			productReference = F5638F1B2A93941900EA140A /* DoorsAndCamerasAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5638EF32A93941800EA140A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F5638EFA2A93941800EA140A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F5638F102A93941900EA140A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F5638EFA2A93941800EA140A;
+					};
+					F5638F1A2A93941900EA140A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F5638EFA2A93941800EA140A;
+					};
+				};
+			};
+			buildConfigurationList = F5638EF62A93941800EA140A /* Build configuration list for PBXProject "DoorsAndCamerasApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5638EF22A93941800EA140A;
+			productRefGroup = F5638EFC2A93941800EA140A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5638EFA2A93941800EA140A /* DoorsAndCamerasApp */,
+				F5638F102A93941900EA140A /* DoorsAndCamerasAppTests */,
+				F5638F1A2A93941900EA140A /* DoorsAndCamerasAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5638EF92A93941800EA140A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5638F0B2A93941800EA140A /* LaunchScreen.storyboard in Resources */,
+				F5638F082A93941800EA140A /* Assets.xcassets in Resources */,
+				F5638F062A93941800EA140A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5638F0F2A93941900EA140A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5638F192A93941900EA140A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E98DBDD0715FE5B7706B63D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests/Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests/Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests/Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FCD187FD4117C4FB684FC80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoorsAndCamerasApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA5F479B629E00E3428BC6F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F85C613E680AA385C979C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoorsAndCamerasApp/Pods-DoorsAndCamerasApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoorsAndCamerasApp/Pods-DoorsAndCamerasApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoorsAndCamerasApp/Pods-DoorsAndCamerasApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB8D1720A407F1B905232648 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoorsAndCamerasAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5638EF72A93941800EA140A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5638F312A93A81A00EA140A /* SegmentCollectionViewCell.swift in Sources */,
+				F5638F2F2A93A5C500EA140A /* CameraTableViewCell.swift in Sources */,
+				F59066802A94928E0034D81F /* CameraModel.swift in Sources */,
+				F59C8D492A96150B00538DF9 /* ApiDataManager.swift in Sources */,
+				F5638F032A93941800EA140A /* ViewController.swift in Sources */,
+				F5A91B9E2A97929D00D1A73F /* DoorTableViewCell.swift in Sources */,
+				F5BA26782A9D02D700B71DCA /* DataBaseManager.swift in Sources */,
+				F59C8D4B2A96459500538DF9 /* DoorModel.swift in Sources */,
+				F5638EFF2A93941800EA140A /* AppDelegate.swift in Sources */,
+				F5638F012A93941800EA140A /* SceneDelegate.swift in Sources */,
+				F5A615E22A9A509300AF6FD5 /* DomophoneTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5638F0D2A93941900EA140A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5638F162A93941900EA140A /* DoorsAndCamerasAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5638F172A93941900EA140A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5638F202A93941900EA140A /* DoorsAndCamerasAppUITests.swift in Sources */,
+				F5638F222A93941900EA140A /* DoorsAndCamerasAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5638F132A93941900EA140A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5638EFA2A93941800EA140A /* DoorsAndCamerasApp */;
+			targetProxy = F5638F122A93941900EA140A /* PBXContainerItemProxy */;
+		};
+		F5638F1D2A93941900EA140A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5638EFA2A93941800EA140A /* DoorsAndCamerasApp */;
+			targetProxy = F5638F1C2A93941900EA140A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5638F042A93941800EA140A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5638F052A93941800EA140A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5638F092A93941800EA140A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5638F0A2A93941800EA140A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5638F232A93941900EA140A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5638F242A93941900EA140A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5638F262A93941900EA140A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9DEAB87C24BD846ACEEBD49 /* Pods-DoorsAndCamerasApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoorsAndCamerasApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sose.DoorsAndCamerasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5638F272A93941900EA140A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B04691B042124BAF4BC37527 /* Pods-DoorsAndCamerasApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoorsAndCamerasApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sose.DoorsAndCamerasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5638F292A93941900EA140A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D644CD4D5FC2D96B7853BB24 /* Pods-DoorsAndCamerasAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sose.DoorsAndCamerasAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoorsAndCamerasApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DoorsAndCamerasApp";
+			};
+			name = Debug;
+		};
+		F5638F2A2A93941900EA140A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A3F7CFE39BCEFBCC7AF1AA /* Pods-DoorsAndCamerasAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sose.DoorsAndCamerasAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoorsAndCamerasApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DoorsAndCamerasApp";
+			};
+			name = Release;
+		};
+		F5638F2C2A93941900EA140A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E783A823C68C9A9071E14B /* Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sose.DoorsAndCamerasAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoorsAndCamerasApp;
+			};
+			name = Debug;
+		};
+		F5638F2D2A93941900EA140A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D43CBC47BBF9ACFEF01A376 /* Pods-DoorsAndCamerasApp-DoorsAndCamerasAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sose.DoorsAndCamerasAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoorsAndCamerasApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5638EF62A93941800EA140A /* Build configuration list for PBXProject "DoorsAndCamerasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5638F232A93941900EA140A /* Debug */,
+				F5638F242A93941900EA140A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5638F252A93941900EA140A /* Build configuration list for PBXNativeTarget "DoorsAndCamerasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5638F262A93941900EA140A /* Debug */,
+				F5638F272A93941900EA140A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5638F282A93941900EA140A /* Build configuration list for PBXNativeTarget "DoorsAndCamerasAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5638F292A93941900EA140A /* Debug */,
+				F5638F2A2A93941900EA140A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5638F2B2A93941900EA140A /* Build configuration list for PBXNativeTarget "DoorsAndCamerasAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5638F2C2A93941900EA140A /* Debug */,
+				F5638F2D2A93941900EA140A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5638EF32A93941800EA140A /* Project object */;
+}
